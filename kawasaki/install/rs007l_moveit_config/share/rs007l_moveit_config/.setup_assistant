@@ -1,0 +1,25 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: rs007l
+    relative_path: urdf/rs007l_onrobot_rg2.urdf
+  srdf:
+    relative_path: config/rs007l_onrobot_rg2.srdf
+  package_settings:
+    author_name: Leo
+    author_email: leo.schitmer@edu.udesc.br
+    generated_timestamp: 1750779750
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity

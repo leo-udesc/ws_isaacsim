@@ -1,0 +1,4 @@
+source;share/rs007l_moveit_config/local_setup.bash
+source;share/rs007l_moveit_config/local_setup.dsv
+source;share/rs007l_moveit_config/local_setup.sh
+source;share/rs007l_moveit_config/local_setup.zsh

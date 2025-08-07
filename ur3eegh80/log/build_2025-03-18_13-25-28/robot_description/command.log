@@ -1,0 +1,6 @@
+Invoking command in '/home/leo/ws_isaacsim/ur3eegh80/build/robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/leo/ws_isaacsim/ur3eegh80/src/robot_description -DCMAKE_INSTALL_PREFIX=/home/leo/ws_isaacsim/ur3eegh80/install/robot_description
+Invoked command in '/home/leo/ws_isaacsim/ur3eegh80/build/robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/leo/ws_isaacsim/ur3eegh80/src/robot_description -DCMAKE_INSTALL_PREFIX=/home/leo/ws_isaacsim/ur3eegh80/install/robot_description
+Invoking command in '/home/leo/ws_isaacsim/ur3eegh80/build/robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/leo/ws_isaacsim/ur3eegh80/build/robot_description -- -j32 -l32
+Invoked command in '/home/leo/ws_isaacsim/ur3eegh80/build/robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/leo/ws_isaacsim/ur3eegh80/build/robot_description -- -j32 -l32
+Invoking command in '/home/leo/ws_isaacsim/ur3eegh80/build/robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/leo/ws_isaacsim/ur3eegh80/build/robot_description
+Invoked command in '/home/leo/ws_isaacsim/ur3eegh80/build/robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/leo/ws_isaacsim/ur3eegh80/build/robot_description

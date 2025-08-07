@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot name="ur3e_completo">
+  <link name="World_ur3e_completo_ur3e_completo_base_link"/>
+</robot>

@@ -1,0 +1,25 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: Unitree_G1_Description
+    relative_path: urdf/g1_29dof_with_hand.urdf
+  srdf:
+    relative_path: config/g1_29dof_with_hand.srdf
+  package_settings:
+    author_name: Leo Schirmer
+    author_email: leo.schirmer@edu.udesc.br
+    generated_timestamp: 1750112079
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity

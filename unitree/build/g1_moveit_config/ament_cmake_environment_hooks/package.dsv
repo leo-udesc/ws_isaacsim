@@ -1,0 +1,4 @@
+source;share/g1_moveit_config/local_setup.bash
+source;share/g1_moveit_config/local_setup.dsv
+source;share/g1_moveit_config/local_setup.sh
+source;share/g1_moveit_config/local_setup.zsh

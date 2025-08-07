@@ -1,0 +1,4 @@
+[console_scripts]
+gripper_controller = ur5_isaac_simulation.action_servers.gripper_controller:main
+ur5_controller = ur5_isaac_simulation.action_servers.ur5_controller:main
+ur5_isaac_ros2 = ur5_isaac_simulation.ur5_isaac_ros2:main

@@ -1,0 +1,173 @@
+/home/leo/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+running egg_info
+creating ../../build/Unitree_G1_Description/Unitree_G1_Description.egg-info
+writing ../../build/Unitree_G1_Description/Unitree_G1_Description.egg-info/PKG-INFO
+writing dependency_links to ../../build/Unitree_G1_Description/Unitree_G1_Description.egg-info/dependency_links.txt
+writing requirements to ../../build/Unitree_G1_Description/Unitree_G1_Description.egg-info/requires.txt
+writing top-level names to ../../build/Unitree_G1_Description/Unitree_G1_Description.egg-info/top_level.txt
+writing manifest file '../../build/Unitree_G1_Description/Unitree_G1_Description.egg-info/SOURCES.txt'
+reading manifest file '../../build/Unitree_G1_Description/Unitree_G1_Description.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/Unitree_G1_Description/Unitree_G1_Description.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/leo/ws_isaacsim/unitree/build/Unitree_G1_Description/build/lib/Unitree_G1_Description
+copying Unitree_G1_Description/__init__.py -> /home/leo/ws_isaacsim/unitree/build/Unitree_G1_Description/build/lib/Unitree_G1_Description
+running install
+running install_lib
+creating /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/lib/python3.10/site-packages/Unitree_G1_Description
+copying /home/leo/ws_isaacsim/unitree/build/Unitree_G1_Description/build/lib/Unitree_G1_Description/__init__.py -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/lib/python3.10/site-packages/Unitree_G1_Description
+byte-compiling /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/lib/python3.10/site-packages/Unitree_G1_Description/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/ament_index/resource_index/packages
+copying resource/Unitree_G1_Description -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/ament_index/resource_index/packages
+copying package.xml -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description
+creating /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/launch
+copying launch/display.launch.py -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/launch
+creating /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/urdf
+copying urdf/g1_29dof_with_hand.urdf -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/urdf
+copying urdf/g1_23dof.urdf -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/urdf
+copying urdf/g1_29dof.urdf -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/urdf
+copying urdf/g1_29dof_lock_waist_rev_1_0.urdf -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/urdf
+copying urdf/g1_comp.urdf -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/urdf
+copying urdf/g1_29dof_rev_1_0_with_inspire_hand_FTP.urdf -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/urdf
+copying urdf/dex3_1_r.urdf -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/urdf
+copying urdf/dex3_1_l.urdf -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/urdf
+copying urdf/g1_29dof_lock_waist.urdf -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/urdf
+copying urdf/g1_29dof_rev_1_0_with_inspire_hand_DFQ.urdf -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/urdf
+copying urdf/g1_dual_arm.urdf -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/urdf
+copying urdf/g1_29dof_rev_1_0.urdf -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/urdf
+copying urdf/g1_23dof_rev_1_0.urdf -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/urdf
+copying urdf/g1_29dof_with_hand_rev_1_0.urdf -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/urdf
+copying urdf/g1_29dof_lock_waist_with_hand_rev_1_0.urdf -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/urdf
+creating /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/urdf/inspire_hand
+copying urdf/inspire_hand/DFQ_right_hand.urdf -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/urdf/inspire_hand
+copying urdf/inspire_hand/FTP_left_hand.urdf -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/urdf/inspire_hand
+copying urdf/inspire_hand/FTP_right_hand.urdf -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/urdf/inspire_hand
+copying urdf/inspire_hand/DFQ_left_hand.urdf -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/urdf/inspire_hand
+copying urdf/inspire_hand/config.yaml -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/urdf/inspire_hand
+creating /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/waist_constraint_L.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/right_wrist_yaw_link.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/right_middle_1.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/waist_yaw_link_rev_1_0.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/left_wrist_pitch_link.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/right_shoulder_pitch_link.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/R_hand_base_link.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/right_rubber_hand.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/Link22_L.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/waist_yaw_link.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/right_hand_middle_0_link.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/torso_link_23dof_rev_1_0.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/Link19_R.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/right_thumb_3.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/left_ring_1.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/left_ring_2.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/waist_roll_link.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/right_base_link.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/pelvis_contour_link.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/left_base_link.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/left_knee_link.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/left_thumb_swing.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/waist_support_link.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/left_hand_index_1_link.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/left_hip_pitch_link.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/right_thumb_1.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/right_hand_middle_1_link.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/Link11_L.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/Link18_R.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/left_thumb_2.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/Link14_L.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/Link22_R.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/left_rubber_hand.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/left_wrist_yaw_link.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/waist_roll_link_rev_1_0.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/torso_constraint_L_rod_link.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/torso_link.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/Link11_R.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/left_shoulder_pitch_link.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/right_wrist_roll_link.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/left_wrist_roll_rubber_hand.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/head_link.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/left_elbow_link.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/right_hand_thumb_2_link.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/left_little_2.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/left_shoulder_roll_link.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/left_hip_yaw_link.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/Link21_L.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/Link19_L.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/right_ankle_roll_link.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/Link15_R.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/right_hand_index_0_link.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/Link12_R.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/waist_constraint_R.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/Link18_L.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/logo_link.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/head_servo_link.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/right_hip_roll_link.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/right_little_2.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/right_index_1.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/right_shoulder_roll_link.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/pelvis.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/Link16_L.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/Link13_R.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/Link20_L.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/right_wrist_roll_rubber_hand.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/left_hand_middle_1_link.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/left_index_1.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/Link12_L.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/left_index_2.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/right_elbow_link.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/right_wrist_pitch_link.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/left_wrist_roll_link.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/left_shoulder_yaw_link.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/Link15_L.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/torso_constraint_L_link.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/right_hand_thumb_1_link.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/d455_link.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/Link14_R.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/left_hand_thumb_0_link.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/right_hip_yaw_link.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/right_middle_2.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/left_hand_middle_0_link.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/right_hand_thumb_0_link.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/right_hand_index_1_link.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/left_little_1.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/right_shoulder_yaw_link.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/right_knee_link.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/left_middle_2.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/torso_constraint_R_rod_link.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/right_ankle_pitch_link.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/left_ankle_pitch_link.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/left_hand_thumb_2_link.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/left_hand_index_0_link.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/left_hand_palm_link.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/right_little_1.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/right_hand_palm_link.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/torso_link_rev_1_0.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/Link13_L.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/right_thumb_2.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/right_hip_pitch_link.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/left_middle_1.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/Link20_R.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/Link21_R.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/right_thumb_4.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/L_hand_base_link.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/right_index_2.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/Link16_R.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/left_hip_roll_link.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/right_ring_1.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/xl330_link.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/Link17_L.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/left_thumb_1.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/right_ring_2.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/torso_constraint_R_link.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/left_hand_thumb_1_link.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/Link17_R.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/left_thumb_3.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+copying meshes/left_ankle_roll_link.STL -> /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/share/Unitree_G1_Description/meshes
+running install_egg_info
+Copying ../../build/Unitree_G1_Description/Unitree_G1_Description.egg-info to /home/leo/ws_isaacsim/unitree/install/Unitree_G1_Description/lib/python3.10/site-packages/Unitree_G1_Description-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/leo/ws_isaacsim/unitree/build/Unitree_G1_Description/install.log'

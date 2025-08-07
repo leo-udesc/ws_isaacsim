@@ -1,0 +1,1 @@
+/home/leo/ws_isaacsim/moveit2_UR3e/build/ur3e_moveit_config/ament_cmake_environment_hooks/local_setup.sh

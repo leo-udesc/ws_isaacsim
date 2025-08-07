@@ -1,0 +1,111 @@
+[0.004s] Invoking command in '/home/leo/ws_isaacsim/kawasaki/build/rs007l': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/leo/ws_isaacsim/kawasaki/src/robots/rs007l -DCMAKE_INSTALL_PREFIX=/home/leo/ws_isaacsim/kawasaki/install/rs007l
+[0.037s] -- The C compiler identification is GNU 11.4.0
+[0.064s] -- The CXX compiler identification is GNU 11.4.0
+[0.068s] -- Detecting C compiler ABI info
+[0.107s] -- Detecting C compiler ABI info - done
+[0.110s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.110s] -- Detecting C compile features
+[0.110s] -- Detecting C compile features - done
+[0.112s] -- Detecting CXX compiler ABI info
+[0.153s] -- Detecting CXX compiler ABI info - done
+[0.156s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.157s] -- Detecting CXX compile features
+[0.157s] -- Detecting CXX compile features - done
+[0.158s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.338s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.378s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.404s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.406s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.410s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.415s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.421s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.439s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.440s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.486s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.500s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.523s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.527s] -- Looking for pthread.h
+[0.568s] -- Looking for pthread.h - found
+[0.568s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.606s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.606s] -- Found Threads: TRUE  
+[0.629s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.664s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.665s] -- Added test 'lint_cmake' to check CMake code style
+[0.665s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.666s] -- Added test 'xmllint' to check XML markup files
+[0.666s] -- Configuring done
+[0.668s] -- Generating done
+[0.669s] -- Build files have been written to: /home/leo/ws_isaacsim/kawasaki/build/rs007l
+[0.673s] Invoked command in '/home/leo/ws_isaacsim/kawasaki/build/rs007l' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/leo/ws_isaacsim/kawasaki/src/robots/rs007l -DCMAKE_INSTALL_PREFIX=/home/leo/ws_isaacsim/kawasaki/install/rs007l
+[0.674s] Invoking command in '/home/leo/ws_isaacsim/kawasaki/build/rs007l': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/leo/ws_isaacsim/kawasaki/build/rs007l -- -j32 -l32
+[0.696s] Invoked command in '/home/leo/ws_isaacsim/kawasaki/build/rs007l' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/leo/ws_isaacsim/kawasaki/build/rs007l -- -j32 -l32
+[0.700s] Invoking command in '/home/leo/ws_isaacsim/kawasaki/build/rs007l': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/leo/ws_isaacsim/kawasaki/build/rs007l
+[0.704s] -- Install configuration: ""
+[0.704s] -- Installing: /home/leo/ws_isaacsim/kawasaki/install/rs007l/share/rs007l/urdf
+[0.704s] -- Installing: /home/leo/ws_isaacsim/kawasaki/install/rs007l/share/rs007l/urdf/rs007l_onrobot_rg2.urdf
+[0.704s] -- Installing: /home/leo/ws_isaacsim/kawasaki/install/rs007l/share/rs007l/urdf/leo_rs007l_onrobot_rg2.urdf
+[0.704s] -- Installing: /home/leo/ws_isaacsim/kawasaki/install/rs007l/share/rs007l/meshes
+[0.705s] -- Installing: /home/leo/ws_isaacsim/kawasaki/install/rs007l/share/rs007l/meshes/onrobot_rg2_base_link_visuals.obj
+[0.706s] -- Installing: /home/leo/ws_isaacsim/kawasaki/install/rs007l/share/rs007l/meshes/left_inner_finger_visuals.obj
+[0.707s] -- Installing: /home/leo/ws_isaacsim/kawasaki/install/rs007l/share/rs007l/meshes/right_inner_finger_collisions.obj
+[0.707s] -- Installing: /home/leo/ws_isaacsim/kawasaki/install/rs007l/share/rs007l/meshes/link3_visuals.obj
+[0.707s] -- Installing: /home/leo/ws_isaacsim/kawasaki/install/rs007l/share/rs007l/meshes/onrobot_rg2_base_link_collisions.obj
+[0.707s] -- Installing: /home/leo/ws_isaacsim/kawasaki/install/rs007l/share/rs007l/meshes/right_inner_knuckle_visuals.obj
+[0.708s] -- Installing: /home/leo/ws_isaacsim/kawasaki/install/rs007l/share/rs007l/meshes/left_outer_knuckle_collisions.obj
+[0.708s] -- Installing: /home/leo/ws_isaacsim/kawasaki/install/rs007l/share/rs007l/meshes/base_link_collisions.obj
+[0.709s] -- Installing: /home/leo/ws_isaacsim/kawasaki/install/rs007l/share/rs007l/meshes/left_inner_finger_collisions.obj
+[0.709s] -- Installing: /home/leo/ws_isaacsim/kawasaki/install/rs007l/share/rs007l/meshes/link2_visuals.mtl
+[0.709s] -- Installing: /home/leo/ws_isaacsim/kawasaki/install/rs007l/share/rs007l/meshes/link5_visuals.mtl
+[0.709s] -- Installing: /home/leo/ws_isaacsim/kawasaki/install/rs007l/share/rs007l/meshes/left_outer_knuckle_visuals.mtl
+[0.709s] -- Installing: /home/leo/ws_isaacsim/kawasaki/install/rs007l/share/rs007l/meshes/right_inner_knuckle_visuals.mtl
+[0.709s] -- Installing: /home/leo/ws_isaacsim/kawasaki/install/rs007l/share/rs007l/meshes/left_inner_knuckle_visuals.obj
+[0.710s] -- Installing: /home/leo/ws_isaacsim/kawasaki/install/rs007l/share/rs007l/meshes/link2_collisions.obj
+[0.710s] -- Installing: /home/leo/ws_isaacsim/kawasaki/install/rs007l/share/rs007l/meshes/link4_collisions.obj
+[0.710s] -- Installing: /home/leo/ws_isaacsim/kawasaki/install/rs007l/share/rs007l/meshes/right_inner_finger_visuals.obj
+[0.711s] -- Installing: /home/leo/ws_isaacsim/kawasaki/install/rs007l/share/rs007l/meshes/right_inner_knuckle_collisions.obj
+[0.711s] -- Installing: /home/leo/ws_isaacsim/kawasaki/install/rs007l/share/rs007l/meshes/link4_visuals.obj
+[0.712s] -- Installing: /home/leo/ws_isaacsim/kawasaki/install/rs007l/share/rs007l/meshes/link4_visuals.mtl
+[0.712s] -- Installing: /home/leo/ws_isaacsim/kawasaki/install/rs007l/share/rs007l/meshes/link5_collisions.obj
+[0.712s] -- Installing: /home/leo/ws_isaacsim/kawasaki/install/rs007l/share/rs007l/meshes/link1_visuals.obj
+[0.712s] -- Installing: /home/leo/ws_isaacsim/kawasaki/install/rs007l/share/rs007l/meshes/link6_visuals.obj
+[0.713s] -- Installing: /home/leo/ws_isaacsim/kawasaki/install/rs007l/share/rs007l/meshes/left_outer_knuckle_visuals.obj
+[0.714s] -- Installing: /home/leo/ws_isaacsim/kawasaki/install/rs007l/share/rs007l/meshes/right_outer_knuckle_visuals.mtl
+[0.714s] -- Installing: /home/leo/ws_isaacsim/kawasaki/install/rs007l/share/rs007l/meshes/link3_collisions.obj
+[0.714s] -- Installing: /home/leo/ws_isaacsim/kawasaki/install/rs007l/share/rs007l/meshes/right_outer_knuckle_collisions.obj
+[0.714s] -- Installing: /home/leo/ws_isaacsim/kawasaki/install/rs007l/share/rs007l/meshes/right_inner_finger_visuals.mtl
+[0.714s] -- Installing: /home/leo/ws_isaacsim/kawasaki/install/rs007l/share/rs007l/meshes/link6_collisions.obj
+[0.714s] -- Installing: /home/leo/ws_isaacsim/kawasaki/install/rs007l/share/rs007l/meshes/link5_visuals.obj
+[0.714s] -- Installing: /home/leo/ws_isaacsim/kawasaki/install/rs007l/share/rs007l/meshes/base_link_visuals.obj
+[0.715s] -- Installing: /home/leo/ws_isaacsim/kawasaki/install/rs007l/share/rs007l/meshes/left_inner_knuckle_collisions.obj
+[0.715s] -- Installing: /home/leo/ws_isaacsim/kawasaki/install/rs007l/share/rs007l/meshes/left_inner_finger_visuals.mtl
+[0.715s] -- Installing: /home/leo/ws_isaacsim/kawasaki/install/rs007l/share/rs007l/meshes/link2_visuals.obj
+[0.715s] -- Installing: /home/leo/ws_isaacsim/kawasaki/install/rs007l/share/rs007l/meshes/link1_collisions.obj
+[0.716s] -- Installing: /home/leo/ws_isaacsim/kawasaki/install/rs007l/share/rs007l/meshes/onrobot_rg2_base_link_visuals.mtl
+[0.716s] -- Installing: /home/leo/ws_isaacsim/kawasaki/install/rs007l/share/rs007l/meshes/link3_visuals.mtl
+[0.716s] -- Installing: /home/leo/ws_isaacsim/kawasaki/install/rs007l/share/rs007l/meshes/base_link_visuals.mtl
+[0.716s] -- Installing: /home/leo/ws_isaacsim/kawasaki/install/rs007l/share/rs007l/meshes/left_inner_knuckle_visuals.mtl
+[0.716s] -- Installing: /home/leo/ws_isaacsim/kawasaki/install/rs007l/share/rs007l/meshes/right_outer_knuckle_visuals.obj
+[0.717s] -- Installing: /home/leo/ws_isaacsim/kawasaki/install/rs007l/share/rs007l/meshes/link1_visuals.mtl
+[0.717s] -- Installing: /home/leo/ws_isaacsim/kawasaki/install/rs007l/share/rs007l/meshes/link6_visuals.mtl
+[0.717s] -- Installing: /home/leo/ws_isaacsim/kawasaki/install/rs007l/share/rs007l/src
+[0.717s] -- Installing: /home/leo/ws_isaacsim/kawasaki/install/rs007l/share/rs007l/launch
+[0.717s] -- Installing: /home/leo/ws_isaacsim/kawasaki/install/rs007l/share/rs007l/launch/view.model-launch.py
+[0.717s] -- Installing: /home/leo/ws_isaacsim/kawasaki/install/rs007l/share/rs007l/rviz
+[0.717s] -- Installing: /home/leo/ws_isaacsim/kawasaki/install/rs007l/share/rs007l/rviz/rviz.rviz
+[0.717s] -- Installing: /home/leo/ws_isaacsim/kawasaki/install/rs007l/share/ament_index/resource_index/package_run_dependencies/rs007l
+[0.717s] -- Installing: /home/leo/ws_isaacsim/kawasaki/install/rs007l/share/ament_index/resource_index/parent_prefix_path/rs007l
+[0.717s] -- Installing: /home/leo/ws_isaacsim/kawasaki/install/rs007l/share/rs007l/environment/ament_prefix_path.sh
+[0.717s] -- Installing: /home/leo/ws_isaacsim/kawasaki/install/rs007l/share/rs007l/environment/ament_prefix_path.dsv
+[0.717s] -- Installing: /home/leo/ws_isaacsim/kawasaki/install/rs007l/share/rs007l/environment/path.sh
+[0.717s] -- Installing: /home/leo/ws_isaacsim/kawasaki/install/rs007l/share/rs007l/environment/path.dsv
+[0.717s] -- Installing: /home/leo/ws_isaacsim/kawasaki/install/rs007l/share/rs007l/local_setup.bash
+[0.717s] -- Installing: /home/leo/ws_isaacsim/kawasaki/install/rs007l/share/rs007l/local_setup.sh
+[0.717s] -- Installing: /home/leo/ws_isaacsim/kawasaki/install/rs007l/share/rs007l/local_setup.zsh
+[0.717s] -- Installing: /home/leo/ws_isaacsim/kawasaki/install/rs007l/share/rs007l/local_setup.dsv
+[0.717s] -- Installing: /home/leo/ws_isaacsim/kawasaki/install/rs007l/share/rs007l/package.dsv
+[0.717s] -- Installing: /home/leo/ws_isaacsim/kawasaki/install/rs007l/share/ament_index/resource_index/packages/rs007l
+[0.717s] -- Installing: /home/leo/ws_isaacsim/kawasaki/install/rs007l/share/rs007l/cmake/rs007lConfig.cmake
+[0.717s] -- Installing: /home/leo/ws_isaacsim/kawasaki/install/rs007l/share/rs007l/cmake/rs007lConfig-version.cmake
+[0.717s] -- Installing: /home/leo/ws_isaacsim/kawasaki/install/rs007l/share/rs007l/package.xml
+[0.718s] Invoked command in '/home/leo/ws_isaacsim/kawasaki/build/rs007l' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/leo/ws_isaacsim/kawasaki/build/rs007l

@@ -1,0 +1,86 @@
+[0.007s] Invoking command in '/home/leo/ws_isaacsim/moveit2_UR5/build/robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/leo/ws_isaacsim/moveit2_UR5/src/robot_description -DCMAKE_INSTALL_PREFIX=/home/leo/ws_isaacsim/moveit2_UR5/install/robot_description
+[0.085s] -- The C compiler identification is GNU 11.4.0
+[0.142s] -- The CXX compiler identification is GNU 11.4.0
+[0.148s] -- Detecting C compiler ABI info
+[0.189s] -- Detecting C compiler ABI info - done
+[0.192s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.193s] -- Detecting C compile features
+[0.193s] -- Detecting C compile features - done
+[0.195s] -- Detecting CXX compiler ABI info
+[0.236s] -- Detecting CXX compiler ABI info - done
+[0.241s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.242s] -- Detecting CXX compile features
+[0.242s] -- Detecting CXX compile features - done
+[0.245s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.430s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.482s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[0.538s] -- Configuring done
+[0.539s] -- Generating done
+[0.540s] -- Build files have been written to: /home/leo/ws_isaacsim/moveit2_UR5/build/robot_description
+[0.543s] Invoked command in '/home/leo/ws_isaacsim/moveit2_UR5/build/robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/leo/ws_isaacsim/moveit2_UR5/src/robot_description -DCMAKE_INSTALL_PREFIX=/home/leo/ws_isaacsim/moveit2_UR5/install/robot_description
+[0.544s] Invoking command in '/home/leo/ws_isaacsim/moveit2_UR5/build/robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/leo/ws_isaacsim/moveit2_UR5/build/robot_description -- -j32 -l32
+[0.562s] Invoked command in '/home/leo/ws_isaacsim/moveit2_UR5/build/robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/leo/ws_isaacsim/moveit2_UR5/build/robot_description -- -j32 -l32
+[0.567s] Invoking command in '/home/leo/ws_isaacsim/moveit2_UR5/build/robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/leo/ws_isaacsim/moveit2_UR5/build/robot_description
+[0.570s] -- Install configuration: ""
+[0.570s] -- Installing: /home/leo/ws_isaacsim/moveit2_UR5/install/robot_description/share/robot_description/meshes
+[0.570s] -- Installing: /home/leo/ws_isaacsim/moveit2_UR5/install/robot_description/share/robot_description/meshes/coupler.stl
+[0.571s] -- Installing: /home/leo/ws_isaacsim/moveit2_UR5/install/robot_description/share/robot_description/meshes/ur5
+[0.571s] -- Installing: /home/leo/ws_isaacsim/moveit2_UR5/install/robot_description/share/robot_description/meshes/ur5/visual
+[0.571s] -- Installing: /home/leo/ws_isaacsim/moveit2_UR5/install/robot_description/share/robot_description/meshes/ur5/visual/wrist2.dae
+[0.573s] -- Installing: /home/leo/ws_isaacsim/moveit2_UR5/install/robot_description/share/robot_description/meshes/ur5/visual/wrist3.dae
+[0.573s] -- Installing: /home/leo/ws_isaacsim/moveit2_UR5/install/robot_description/share/robot_description/meshes/ur5/visual/forearm.dae
+[0.575s] -- Installing: /home/leo/ws_isaacsim/moveit2_UR5/install/robot_description/share/robot_description/meshes/ur5/visual/robotiq_85_finger_tip_link.dae
+[0.576s] -- Installing: /home/leo/ws_isaacsim/moveit2_UR5/install/robot_description/share/robot_description/meshes/ur5/visual/robotiq_85_finger_link.dae
+[0.576s] -- Installing: /home/leo/ws_isaacsim/moveit2_UR5/install/robot_description/share/robot_description/meshes/ur5/visual/robotiq_85_knuckle_link.dae
+[0.576s] -- Installing: /home/leo/ws_isaacsim/moveit2_UR5/install/robot_description/share/robot_description/meshes/ur5/visual/robotiq_85_base_link.dae
+[0.580s] -- Installing: /home/leo/ws_isaacsim/moveit2_UR5/install/robot_description/share/robot_description/meshes/ur5/visual/wrist1.dae
+[0.581s] -- Installing: /home/leo/ws_isaacsim/moveit2_UR5/install/robot_description/share/robot_description/meshes/ur5/visual/shoulder.dae
+[0.582s] -- Installing: /home/leo/ws_isaacsim/moveit2_UR5/install/robot_description/share/robot_description/meshes/ur5/visual/upperarm.dae
+[0.585s] -- Installing: /home/leo/ws_isaacsim/moveit2_UR5/install/robot_description/share/robot_description/meshes/ur5/visual/robotiq_85_inner_knuckle_link.dae
+[0.585s] -- Installing: /home/leo/ws_isaacsim/moveit2_UR5/install/robot_description/share/robot_description/meshes/ur5/visual/base.dae
+[0.585s] -- Installing: /home/leo/ws_isaacsim/moveit2_UR5/install/robot_description/share/robot_description/meshes/ur5/collision
+[0.585s] -- Installing: /home/leo/ws_isaacsim/moveit2_UR5/install/robot_description/share/robot_description/meshes/ur5/collision/forearm.stl
+[0.586s] -- Installing: /home/leo/ws_isaacsim/moveit2_UR5/install/robot_description/share/robot_description/meshes/ur5/collision/shoulder.stl
+[0.586s] -- Installing: /home/leo/ws_isaacsim/moveit2_UR5/install/robot_description/share/robot_description/meshes/ur5/collision/wrist2.stl
+[0.586s] -- Installing: /home/leo/ws_isaacsim/moveit2_UR5/install/robot_description/share/robot_description/meshes/ur5/collision/wrist3.stl
+[0.586s] -- Installing: /home/leo/ws_isaacsim/moveit2_UR5/install/robot_description/share/robot_description/meshes/ur5/collision/base.stl
+[0.587s] -- Installing: /home/leo/ws_isaacsim/moveit2_UR5/install/robot_description/share/robot_description/meshes/ur5/collision/robotiq_85_base_link.stl
+[0.589s] -- Installing: /home/leo/ws_isaacsim/moveit2_UR5/install/robot_description/share/robot_description/meshes/ur5/collision/robotiq_85_knuckle_link.stl
+[0.589s] -- Installing: /home/leo/ws_isaacsim/moveit2_UR5/install/robot_description/share/robot_description/meshes/ur5/collision/wrist1.stl
+[0.589s] -- Installing: /home/leo/ws_isaacsim/moveit2_UR5/install/robot_description/share/robot_description/meshes/ur5/collision/robotiq_85_inner_knuckle_link.stl
+[0.589s] -- Installing: /home/leo/ws_isaacsim/moveit2_UR5/install/robot_description/share/robot_description/meshes/ur5/collision/robotiq_85_finger_tip_link.stl
+[0.590s] -- Installing: /home/leo/ws_isaacsim/moveit2_UR5/install/robot_description/share/robot_description/meshes/ur5/collision/upperarm.stl
+[0.590s] -- Installing: /home/leo/ws_isaacsim/moveit2_UR5/install/robot_description/share/robot_description/meshes/ur5/collision/robotiq_85_finger_link.stl
+[0.590s] -- Installing: /home/leo/ws_isaacsim/moveit2_UR5/install/robot_description/share/robot_description/urdf
+[0.591s] -- Installing: /home/leo/ws_isaacsim/moveit2_UR5/install/robot_description/share/robot_description/urdf/ur.gazebo.xacro
+[0.591s] -- Installing: /home/leo/ws_isaacsim/moveit2_UR5/install/robot_description/share/robot_description/urdf/ur5_joint_limited_robot.urdf
+[0.591s] -- Installing: /home/leo/ws_isaacsim/moveit2_UR5/install/robot_description/share/robot_description/urdf/common.gazebo.xacro
+[0.591s] -- Installing: /home/leo/ws_isaacsim/moveit2_UR5/install/robot_description/share/robot_description/urdf/ur.transmission.xacro
+[0.591s] -- Installing: /home/leo/ws_isaacsim/moveit2_UR5/install/robot_description/share/robot_description/urdf/ur5_robotiq85_gripper.xacro
+[0.591s] -- Installing: /home/leo/ws_isaacsim/moveit2_UR5/install/robot_description/share/robot_description/urdf/robotiq
+[0.591s] -- Installing: /home/leo/ws_isaacsim/moveit2_UR5/install/robot_description/share/robot_description/urdf/robotiq/robotiq_85_gripper_sim_base.urdf.xacro
+[0.591s] -- Installing: /home/leo/ws_isaacsim/moveit2_UR5/install/robot_description/share/robot_description/urdf/robotiq/robotiq_85_gripper.transmission.xacro
+[0.591s] -- Installing: /home/leo/ws_isaacsim/moveit2_UR5/install/robot_description/share/robot_description/urdf/robotiq/robotiq_85_gripper.xacro
+[0.591s] -- Installing: /home/leo/ws_isaacsim/moveit2_UR5/install/robot_description/share/robot_description/urdf/robotiq/robotiq_85_gripper.urdf.xacro
+[0.592s] -- Installing: /home/leo/ws_isaacsim/moveit2_UR5/install/robot_description/share/robot_description/urdf/ur5.urdf.xacro
+[0.592s] -- Installing: /home/leo/ws_isaacsim/moveit2_UR5/install/robot_description/share/robot_description/urdf/ur5_robot.xacro
+[0.592s] -- Installing: /home/leo/ws_isaacsim/moveit2_UR5/install/robot_description/share/robot_description/urdf/camera
+[0.592s] -- Installing: /home/leo/ws_isaacsim/moveit2_UR5/install/robot_description/share/robot_description/urdf/camera/camera.gazebo
+[0.592s] -- Installing: /home/leo/ws_isaacsim/moveit2_UR5/install/robot_description/share/robot_description/urdf/camera/camera.xacro
+[0.592s] -- Installing: /home/leo/ws_isaacsim/moveit2_UR5/install/robot_description/share/robot_description/urdf/ur5_joint_limited_robot.urdf.xacro
+[0.592s] -- Installing: /home/leo/ws_isaacsim/moveit2_UR5/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description
+[0.592s] -- Installing: /home/leo/ws_isaacsim/moveit2_UR5/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description
+[0.592s] -- Installing: /home/leo/ws_isaacsim/moveit2_UR5/install/robot_description/share/robot_description/environment/ament_prefix_path.sh
+[0.592s] -- Installing: /home/leo/ws_isaacsim/moveit2_UR5/install/robot_description/share/robot_description/environment/ament_prefix_path.dsv
+[0.592s] -- Installing: /home/leo/ws_isaacsim/moveit2_UR5/install/robot_description/share/robot_description/environment/path.sh
+[0.592s] -- Installing: /home/leo/ws_isaacsim/moveit2_UR5/install/robot_description/share/robot_description/environment/path.dsv
+[0.592s] -- Installing: /home/leo/ws_isaacsim/moveit2_UR5/install/robot_description/share/robot_description/local_setup.bash
+[0.592s] -- Installing: /home/leo/ws_isaacsim/moveit2_UR5/install/robot_description/share/robot_description/local_setup.sh
+[0.592s] -- Installing: /home/leo/ws_isaacsim/moveit2_UR5/install/robot_description/share/robot_description/local_setup.zsh
+[0.592s] -- Installing: /home/leo/ws_isaacsim/moveit2_UR5/install/robot_description/share/robot_description/local_setup.dsv
+[0.592s] -- Installing: /home/leo/ws_isaacsim/moveit2_UR5/install/robot_description/share/robot_description/package.dsv
+[0.592s] -- Installing: /home/leo/ws_isaacsim/moveit2_UR5/install/robot_description/share/ament_index/resource_index/packages/robot_description
+[0.592s] -- Installing: /home/leo/ws_isaacsim/moveit2_UR5/install/robot_description/share/robot_description/cmake/robot_descriptionConfig.cmake
+[0.593s] -- Installing: /home/leo/ws_isaacsim/moveit2_UR5/install/robot_description/share/robot_description/cmake/robot_descriptionConfig-version.cmake
+[0.593s] -- Installing: /home/leo/ws_isaacsim/moveit2_UR5/install/robot_description/share/robot_description/package.xml
+[0.593s] Invoked command in '/home/leo/ws_isaacsim/moveit2_UR5/build/robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/leo/ws_isaacsim/moveit2_UR5/build/robot_description

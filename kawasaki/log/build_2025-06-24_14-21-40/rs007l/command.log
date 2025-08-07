@@ -1,0 +1,6 @@
+Invoking command in '/home/leo/ws_isaacsim/kawasaki/build/rs007l': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/leo/ws_isaacsim/kawasaki/src/robots/rs007l -DCMAKE_INSTALL_PREFIX=/home/leo/ws_isaacsim/kawasaki/install/rs007l
+Invoked command in '/home/leo/ws_isaacsim/kawasaki/build/rs007l' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/leo/ws_isaacsim/kawasaki/src/robots/rs007l -DCMAKE_INSTALL_PREFIX=/home/leo/ws_isaacsim/kawasaki/install/rs007l
+Invoking command in '/home/leo/ws_isaacsim/kawasaki/build/rs007l': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/leo/ws_isaacsim/kawasaki/build/rs007l -- -j32 -l32
+Invoked command in '/home/leo/ws_isaacsim/kawasaki/build/rs007l' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/leo/ws_isaacsim/kawasaki/build/rs007l -- -j32 -l32
+Invoking command in '/home/leo/ws_isaacsim/kawasaki/build/rs007l': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/leo/ws_isaacsim/kawasaki/build/rs007l
+Invoked command in '/home/leo/ws_isaacsim/kawasaki/build/rs007l' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/leo/ws_isaacsim/kawasaki/build/rs007l

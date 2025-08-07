@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<robot name="ur3e_egh80" xmlns:xacro="http://www.ros.org/wiki/xacro">
+  <!--Here we attach gripper to the arm-->
+  <xacro:include filename="$(find robot_description)/urdf/ur3e_joint_limited_robot.urdf.xacro" />
+  <xacro:include filename="$(find robot_description)/urdf/schunk_egh80/schunk_egh80_gripper.urdf.xacro" />
+  <!-- Schunk EGH80 Coupler -->
+    <!--  -->
+    <!--  -->
+  <link name="conector_tcp">
+        <visual>
+            <origin xyz="0 0 0" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://robot_description/meshes/conector_tcp.stl"/>
+            </geometry>
+            <material name="conector_tcp_material">
+                <color rgba="0.50196078431372548323 0.50196078431372548323 0.50196078431372548323 1.0"/>
+            </material>
+        </visual>
+        <collision>
+            <origin xyz="0 0 0" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://robot_description/meshes/conector_tcp.stl"/>
+            </geometry>
+        </collision>
+        <inertial>
+            <origin xyz="-3.517291045154929735e-05 -3.2279048367335561479e-13 0.0037918602136445983021" rpy="0 0 0"/>
+            <mass value="0.17533775221511888054" />
+            <inertia 
+                ixx="4.7634466232920521231e-05" ixy="-1.9565925084430388539e-07"  ixz="-1.9723444917313040303e-07" 
+                iyy="6.3135044798116074396e-05" iyz="1.9739250304519301961e-16" 
+                izz="0.00010757461602015991483" />
+        </inertial>
+  </link>
+  <joint name="conector_tcp_joint" type="fixed">
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 ${-pi/2.0}" />
+      <parent link="tool0" />
+      <child link="conector_tcp"/>
+  </joint>
+  <gazebo reference="conector_tcp">
+      <mu1>0.9</mu1>
+      <mu2>0.9</mu2>
+  </gazebo>
+  <!--Attach gripper to connector-->
+  <xacro:schunk_egh80_gripper prefix="" parent="conector_tcp">
+      <origin xyz="0 0 0.001" rpy="0 ${-pi/2.0} ${pi}" />
+  </xacro:schunk_egh80_gripper>
+</robot>
